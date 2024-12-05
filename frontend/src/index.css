@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif, Intern;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "liga" 1, "calt" 1;
+  background: #000;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, InterVariable,
+    sans-serif, "Courier New", monospace;
+}
+
+/* Tailwind Imports */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  display: none;
+}
